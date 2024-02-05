@@ -1,0 +1,1102 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Computer Programming and Its Applications: A Basic Guide</title>
+    <link rel="shortcut icon" href="https://www.mooc.org/hubfs/favicon.ico">
+    <meta name="description" content="Computer programming powers the tech that runs our world. Learn why programming is so powerful and what you can do with this dynamic skillset.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Computer Programming and Its Applications: A Basic Guide",
+      "image": ["https://f.hubspotusercontent10.net/hubfs/6448316/applications-of-computer-programming.jpg"],
+      "datePublished": "2021-11-16T05:00:00+00:00",
+      "dateModified": "2021-11-16T05:00:00+00:00",
+      "author": {
+        "@type": "Person",
+        "name": "Mooc Blog Team",
+        "url": "https://www.mooc.org/blog/author/mooc-blog-team"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "MOOC.org",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.mooc.org/hubfs/Mooc.org%20Logo.svg"
+        }
+      }
+    }
+    </script>
+<!--     
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Articles",
+        "item": "https://www.mooc.org/blog"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Programming",
+        "item": "https://www.mooc.org/blog/tag/programming"
+      }]
+    }
+    </script>
+     -->
+    
+		
+    
+    <script src="/hs/hsstatic/jquery-libs/static-1.1/jquery/jquery-1.7.1.js"></script>
+<script>hsjQuery = window['jQuery'];</script>
+    <meta property="og:description" content="Computer programming powers the tech that runs our world. Learn why programming is so powerful and what you can do with this dynamic skillset.">
+    <meta property="og:title" content="Computer Programming and Its Applications: A Basic Guide">
+    <meta name="twitter:description" content="Computer programming powers the tech that runs our world. Learn why programming is so powerful and what you can do with this dynamic skillset.">
+    <meta name="twitter:title" content="Computer Programming and Its Applications: A Basic Guide">
+
+    
+
+    
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+
+<style>
+
+
+ul.breadcrumb li a {
+  color: #0D7193;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #09BC8A;
+  text-decoration: underline;
+}
+
+ul.breadcrumb li {
+  color: #454545;
+}
+
+ul.breadcrumb li+li:before {
+  color: black;
+}
+
+
+
+@media (min-width: 768px) {
+.atmc-blog-post_body img {
+max-width: 500px !important;
+float: right;
+margin: 30px 20px 20px;
+background-position: center center;
+background-repeat: no-repeat;
+/*object-fit: none; /* Do not scale the image */
+/*center image*/
+display: block;
+
+box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+border-radius: 3px;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+
+ul.breadcrumb {
+  padding: 10px 0px;
+  list-style: none;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  content: "/\00a0";
+}
+
+
+}
+
+
+@media (max-width: 767px) {
+.atmc-blog-post_body img {
+  object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 200px;
+  width: 100%;
+box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+border-radius: 3px;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: .7rem;
+  line-height: .8rem;
+}
+
+ul.breadcrumb li a {
+  display: inline;
+  font-size: .7rem;
+  line-height: .8rem;
+}
+
+
+ul.breadcrumb {
+  padding: 5px 0px;
+  list-style: none;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 2px;
+  content: "/\00a0";
+}
+
+
+}
+
+</style>
+
+<link rel="stylesheet" href="https://www.mooc.org/hs-fs/hub/6448316/hub_generated/template_assets/57996243235/1639435784627/1_-_Page_Templates/MOOC_Blog/css/main.min.css">
+<link rel="stylesheet" href="https://www.mooc.org/hs-fs/hub/6448316/hub_generated/template_assets/14460966970/1646855668031/3_-_CSS_Files/Mooc_Styling_-_Universal.min.css">
+<link rel="stylesheet" href="https://www.mooc.org/hs-fs/hub/6448316/hub_generated/template_assets/15317332427/1646855692381/3_-_CSS_Files/Mooc_Styling_-_Desktop.min.css">
+<link rel="stylesheet" href="https://www.mooc.org/hs-fs/hub/6448316/hub_generated/template_assets/15314839678/1646855721594/3_-_CSS_Files/Mooc_Styling_-_Mobile.min.css">
+<link rel="stylesheet" href="https://www.mooc.org/hs-fs/hub/6448316/hub_generated/module_assets/15308894179/1634745193604/module_15308894179_Page_Row_-_Navigation.min.css">
+
+<style>
+
+.navbar {
+box-shadow: rgba(0,0,0,.5) 2px 2px 4px;
+box-sizing: border-box;
+display: block;
+margin: 0;
+padding: 0;
+position: relative;
+top: auto;
+width: 100%;
+z-index: 9;
+}
+
+/* START OF CUSTOM DESKTOP STYLING */
+@media(min-width: 1059px) {
+
+.cta-links2 a {
+color: #000000 !important;
+  }
+
+
+.nav-inner-full {
+
+
+padding-right: 5%;
+padding-left: 5%;
+
+
+} 
+
+.main-links strong {
+color: #D23228 !important;
+  }
+
+.cta-links .btn-nav {
+font-size: 18px !important;
+color: white;
+background-color: #2EA370;
+border: 1px solid #2EA370;
+}
+
+
+.cta-links .btn-nav:hover {
+background-color: #185C3D;
+border: 1px solid #185C3D;
+}
+
+.cta-links .btn-nav {
+background-color: #2EA370;
+padding: 0% 5%;
+border-radius: 3px;
+font-weight: 500 !important;
+}
+
+.cta-links .btn-nav2 {
+font-size: 18px !important;
+color: #707070;
+background-color: #fff;
+border: 1px solid #fff;
+font-weight: 500 !important;
+}
+
+
+.cta-links .btn-nav2:hover {
+background-color: #fff;
+border: 1px solid #fff;
+text-decoration: underline !important;
+}
+
+.cta-links .btn-nav2 {
+background-color: #fff;
+padding: 0% 5%;
+}
+
+
+
+}
+
+
+/* START OF CUSTOM MOBILE STYLING */
+@media(max-width: 1058px) {
+
+.cta-links {
+background-color: #2EA370;
+}
+
+.cta-links:hover {
+background-color: #185C3D;
+}
+
+.cta-links a {
+text-decoration: none !important;
+font-size: 18px !important;
+}
+
+.cta-links2 {
+text-align: center;
+padding-bottom: 5%;
+}
+
+.cta-links2 a {
+color: #707070 !important;
+}
+
+
+}
+
+</style>
+
+<link rel="stylesheet" href="https://www.mooc.org/hs-fs/hub/6448316/hub_generated/module_assets/58002005544/1634762966579/module_58002005544_Blog_Post_Footer.min.css">
+
+<style>
+
+
+
+@media(min-width: 1059px) {
+/* START OF DESKTOP DESIGN!!! */
+
+.footer-about-text {
+width: 75%;
+float: left;
+  }
+
+.footer-about-cta {
+width: 25%;
+float: right;
+padding-left: 2%;
+text-align: center !important;
+  }
+
+.footer-about-text p {
+font-size: .85em !important;
+}
+
+.footer-about-content {
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+  }
+
+
+}
+
+
+@media(max-width: 1058px) {
+/* START OF MOBILE DESIGN!!! */
+
+.footer-about-text h3 {
+font-size: 1.25em !important;
+}
+
+.footer-about-text p {
+font-size: .85em !important;
+}
+
+
+}
+
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
+<style>
+  @font-face {
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Roboto_Mono/regular.woff2") format("woff2"), url("/_hcms/googlefonts/Roboto_Mono/regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Roboto/500.woff2") format("woff2"), url("/_hcms/googlefonts/Roboto/500.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Roboto/regular.woff2") format("woff2"), url("/_hcms/googlefonts/Roboto/regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Roboto/700.woff2") format("woff2"), url("/_hcms/googlefonts/Roboto/700.woff") format("woff");
+  }
+</style>
+
+<!-- Editor Styles -->
+<style id="hs_editor_style" type="text/css">
+.header-global-row-0-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.footer-global-row-0-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+/* HubSpot Non-stacked Media Query Styles */
+@media (min-width:768px) {
+  .footer-global-row-0-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .footer-global-module-1-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .footer-global-module-1-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+}
+/* HubSpot Styles (default) */
+.header-global-row-0-margin {
+  margin-top: 0% !important;
+  margin-bottom: 2% !important;
+}
+.header-global-row-0-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.footer-global-row-0-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+</style>
+    
+
+    
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35248639-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-35248639-4');
+</script>
+
+
+
+<meta name="google-site-verification" content="CUGLbyzMzmlQVwM9wyGK6yhcOXL38xYnn8mX0G1TDLE">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KNVRW45');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Global site tag (gtag.js) - Google Ads: edX Lead Gen - Search -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-699340611"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-699340611');
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google Ads: edX Lead Gen - Display -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-699406420"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-699406420');
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google Ads: edX B2B -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-796433197"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-796433197');
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google Ads: edX Grant -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-967053688"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-967053688');
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google Ads: edX Display -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-955717393"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-955717393');
+</script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '450799429616575');
+fbq('track', 'PageView');
+</script>
+<noscript>&lt;img  height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=450799429616575&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;</noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<!-- Hotjar Tracking Code for https://www.edx.org/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1563632,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<meta property="og:image" content="https://www.mooc.org/hubfs/applications-of-computer-programming.jpg#keepProtocol">
+<meta property="og:image:width" content="724">
+<meta property="og:image:height" content="483">
+<meta property="og:image:alt" content="applications of computer programming">
+<meta name="twitter:image" content="https://www.mooc.org/hubfs/applications-of-computer-programming.jpg#keepProtocol">
+<meta name="twitter:image:alt" content="applications of computer programming">
+
+<meta property="og:url" content="https://www.mooc.org/blog/applications-of-computer-programming">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="canonical" href="https://www.mooc.org/blog/applications-of-computer-programming">
+
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/rss+xml" href="https://www.mooc.org/blog/rss.xml">
+<meta name="twitter:domain" content="www.mooc.org">
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+    lang: en_US
+</script>
+
+<meta http-equiv="content-language" content="en">
+
+
+
+
+
+
+  <meta name="generator" content="HubSpot"></head>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+  <body class="atmc-body-header-default">
+    <div class="body-wrapper   hs-content-id-59861711175 hs-blog-post hs-blog-id-24935757239">
+		
+			<div data-global-resource-path="1 - Page Templates/MOOC Blog/templates/partials/header-post.html"><div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 dnd-section header-global-row-0-padding header-global-row-0-margin header-global-row-0-force-full-width-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1634760931524" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="b2c-nav" class="navbar row-fluid-wrapper row-depth-1 row-number-1 bottom-shadow">
+<div class="b2c-nav-inner">
+<div class="row-fluid">
+<div class="span12 widget-span">
+
+
+<div class="desktop-menu mobile-hidden nav-inner-full">
+
+<div class="topnav-logo">
+<a href="/"><img src="https://www.mooc.org/hubfs/Mooc.org%20Logo.svg" alt="Mooc.org Logo"></a>
+</div>
+
+<div class="topnav">
+
+<div class="main-links">
+
+
+<div class="link-type">
+<a href="https://www.mooc.org/blog/">Blog</a>
+</div>
+
+<div class="link-type">
+<a href="https://www.mooc.org/#course-categories">Browse Course Topics</a>
+</div>
+
+<div class="link-type">
+<a href="https://www.mooc.org/#mooc-topics">About MOOCs</a>
+</div>
+
+
+</div>
+
+<!--START DESKTOP CTA SECTION-->
+<div class="cta-links">
+
+<!--START SECONDARY CTA-->
+
+<a href="https://www.mooc.org/es/blog/"><button class="btn btn-nav2">En Español</button></a>
+
+<!--END SECONDARY CTA-->
+
+<!--START PRIMARY CTA-->
+<a href="https://www.edx.org/?hs_analytics_source=referrals&amp;utm_source=mooc.org&amp;utm_medium=referral&amp;utm_campaign=mooc-nav" target="_blank"><button class="btn btn-nav">Visit edX.org</button></a>
+<!--END PRIMARY CTA-->
+
+</div>
+<!--END DESKTOP CTA SECTION-->
+
+</div>
+
+</div>
+
+<div class="mobile-menu desktop-hidden" style="">
+<div class="topnav">
+<div class="mobile-toggle" style="padding-right: 5%;">
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<span><span id="hs_cos_wrapper_widget_1634760931524_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" height="35" aria-hidden="true"><g id="bars1_layer"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" /></g></svg></span></span>
+</a>
+</div>
+
+<div class="navlogo nav-inner-full">
+<a href="/"><img src="https://www.mooc.org/hubfs/Mooc.org%20Logo.svg" alt="Mooc.org Logo"></a>
+</div>
+
+<div id="myLinks">
+<div class="nav-inner-full mobile-menu-links">
+ 
+
+<div class="link-type">
+
+<a href="https://www.mooc.org/blog/" class="">Blog</a>
+
+</div>
+
+  
+
+<div class="link-type">
+
+<a href="https://www.mooc.org/#course-categories" class="">Browse Course Topics</a>
+
+</div>
+
+  
+
+<div class="link-type">
+
+<a href="https://www.mooc.org/#mooc-topics" class="">About MOOCs</a>
+
+</div>
+
+ 
+</div>
+
+
+<!--START MOBILE CTA SECTION-->
+
+<!--START SECONDARY CTA-->
+
+<div class="cta-links2">
+
+
+<a href="https://www.mooc.org/es/blog/">En Español</a>
+
+
+</div>
+
+<!--END SECONDARY CTA-->
+
+<!--START PRIMARY CTA-->
+<div class="cta-links">
+
+
+
+<a href="https://www.edx.org/?hs_analytics_source=referrals&amp;utm_source=mooc.org&amp;utm_medium=referral&amp;utm_campaign=mooc-nav" target="_blank">
+<div class="mobile-nav-inner-cta">
+Visit edX.org
+</div>
+</a>
+
+
+</div>
+<!--END PRIMARY CTA-->
+
+<!--END MOBILE CTA SECTION-->
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div></div> 
+
+			<div id="main-content">
+      
+<main class="atmc-blog-template-01">
+	<article>
+		<div class="atmc-container atmc-container-s">
+      <!-- Post Image -->
+			<div class="atmc-blog-post_image mb-12">
+				<img src="https://www.mooc.org/hubfs/applications-of-computer-programming.jpg" class="rounded shadow-md" width="100%" alt="applications of computer programming">
+			</div>
+		</div>
+
+
+	<div class="dnd-section" style="padding-top: 0% !important;">
+		<div class="atmc-container atmc-container-xs">
+			
+      <!-- Post Header -->
+			<div class="mb-12">
+				<h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Computer Programming and Its Applications: A Basic Guide</span></h1>
+				<div class="atmc-blog-post_meta atmc-cap mb-6">
+					
+						<a href="https://www.mooc.org/blog/author/mooc-blog-team">
+							Mooc Blog Team
+						</a>
+					
+					<div class="atmc-blog-psot_timestamp">
+						Nov 16, 2021 12:00:00 AM
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		
+			
+		<div class="atmc-container atmc-container-xs">
+      <!-- Post Body -->
+			<div class="atmc-blog-post">
+			  
+				
+				<div class="atmc-blog-post_body mt-8">
+					<span id="hs_cos_wrapper_post_body" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="rich_text"><p>Computer programming is the most foundational skill in information technology, and for good reason. Programming knowledge makes up every computing innovation we see. Without computer programming, the world as we know it would cease to function.&nbsp;</p>
+<!--more-->
+<p>Almost all modern tools and institutions—including global commerce, finance, information systems, and more—are built on computer systems. You might have the most innovative app idea in the world, but that idea will only see the light of day if someone has the computer programming knowledge to make it happen.</p>
+<h2 style="font-size: 30px;">What is computer programming?</h2>
+<p><img src="https://www.mooc.org/hubfs/what-is-computer-programming-jpg-1.jpeg" loading="lazy" alt="what is computer programming">Computer programming is the art of writing instructions for a computer. These instructions are called “programs.”</p>
+<p>As “smart” as they seem to the layperson, computers can’t do anything on their own. Everything a computer does is the result of programs people develop to solve problems, meet needs, or achieve goals.</p>
+<h2 style="font-size: 30px;"><span style="color: #000000;">What is a computer program?</span></h2>
+<p>A program is a sequence of commands. Each command causes the computer to perform a specific action. Every action in a computer is a precise set of electrical signals.&nbsp;</p>
+<p>When a computer program is correct and the commands make the computer do what the programmer intends, the computer successfully completes a task.</p>
+<p>Today, programmers write their instructions in code, which is text written using the rules of a particular computer language. There are numerous programming languages out there.&nbsp;</p>
+<p>Some of the most popular programming languages include:</p>
+<ul>
+<li aria-level="1">Java</li>
+<li aria-level="1">JavaScript</li>
+<li aria-level="1">Python</li>
+<li aria-level="1"><a href="https://www.edx.org/learn/c-plus-plus"><span>C++</span></a>/C</li>
+<li aria-level="1"><a href="https://www.edx.org/learn/c-sharp"><span>C#</span></a></li>
+<li aria-level="1"><a href="https://www.edx.org/learn/css"><span>CSS</span></a></li>
+<li aria-level="1"><a href="https://www.edx.org/learn/html"><span>HTML</span></a></li>
+<li aria-level="1">SQL</li>
+</ul>
+<p>Most professionals specialize in a few programming languages. But understanding programming languages on a high level can help professionals learn the fundamentals of many more.</p>
+<p>Each language works by taking a programmer’s instructions and translating them into binary code, a sequence of “on” and “off” (or “0” and “1”) instructions. Differences exist in the details, such as syntax, the ways in which the computer translates the language, and more.</p>
+<h3 style="font-size: 24px;"><span style="color: #434343;">Uses of computer programming</span></h3>
+<p>The languages you’ll learn as a programmer will depend on what you want to do. For example:&nbsp;</p>
+<ul>
+<li aria-level="1"><a href="https://www.edx.org/learn/javascript"><span>JavaScript</span></a> powers user-responsive web pages.</li>
+<li aria-level="1"><a href="https://www.edx.org/learn/sql"><span>SQL</span></a> sends messages to and from databases.</li>
+<li aria-level="1"><a href="https://www.edx.org/learn/c-programming"><span>C</span></a> codes operating systems like Windows or Linux.</li>
+<li aria-level="1"><a href="https://www.edx.org/learn/python"><span>Python</span></a> is popular for <a href="https://www.edx.org/learn/machine-learning"><span>machine learning</span></a> and <a href="https://www.edx.org/learn/artificial-intelligence"><span>artificial intelligence</span></a> algorithms.</li>
+</ul>
+<p>Many languages have multiple uses. For instance:</p>
+<ul>
+<li aria-level="1">Python handles advanced data processing and <a href="https://www.edx.org/learn/data-structures"><span>data structures</span></a>, but programmers also use it to create web applications.&nbsp;</li>
+<li aria-level="1"><a href="https://www.edx.org/learn/java"><span>Java</span></a>, a different language than JavaScript, powers the Android operating system as well as many business software programs.</li>
+</ul>
+<h2 style="font-size: 30px;"><span style="color: #000000;">What do computer programmers do?</span></h2>
+<p>Professional computer programmers spend most of their days doing one of four things:</p>
+<ul>
+<li aria-level="1">Creating new code from scratch.</li>
+<li aria-level="1">Building off existing code to create new functionality.</li>
+<li aria-level="1">Testing someone else’s code before releasing a product.</li>
+<li aria-level="1">Debugging code to achieve a desired function.</li>
+</ul>
+<p>The end goal is to create a working application, web page, or piece of computer software. If something goes wrong, the programmer searches for the error (“bugs”) and finds the right fix.&nbsp;&nbsp;</p>
+<h2 style="font-size: 30px;"><span style="color: #000000;">Computer science vs. computer programming</span></h2>
+<p>A common question is: What is the difference between computer science and computer programming?</p>
+<p>Computer programming involves building things with code. Programming is a hands-on technical skill that involves designing, creating, and refining code to solve problems, build applications, and more.</p>
+<p><a href="https://www.edx.org/learn/computer-science"><span>Computer science</span></a> is a theoretical field that spans mathematics and computer systems. Instead of building applications, computer scientists solve more abstract problems such as algorithms (finding faster methods of computing numbers), graph problems, and more. Computer scientists are also planners and designers that study computer systems and software. They often develop ideas for how to best solve problems using computers that programmers later on implement in their own work.</p>
+<p>An analogy: If programmers are digital builders, then computer scientists are the digital architects. Both are necessary for the final product.</p>
+<h2 style="font-size: 30px;"><span style="color: #000000;">Are computer programmers the same as software developers?</span></h2>
+<p>Software developers can be considered “domain-specific” computer programmers. More than just code, they look at software and applications from a high-level perspective and design the technical elements that will work together to achieve a final result.</p>
+<p>A computer programmer might automate a task and write a simple script and call it a day. A software developer, however, is responsible for creating an entire application. They must choose and implement specific features based on user needs and create models that determine what code the app will need—software developers must consider more complicated design questions, such as whether to use so-called “object-oriented programming,” “functional programming,” and/or more.</p>
+<p>Not all computer programmers are qualified software developers, but most software developers have programming skills.&nbsp;</p>
+<h2 style="font-size: 30px;">Benefits of computer programming knowledge</h2>
+<p><img src="https://www.mooc.org/hubfs/benefits-computer-programming-jpg.jpeg" loading="lazy" alt="benefits of computer programming knowledge"></p>
+<p>In 2019, there were <a href="https://www.scmo.net/faq/2019/8/9/how-many-compaters-is-there-in-the-world"><span>more than two billion computers </span></a>across the globe. As long as computers run, programmers will be in demand.</p>
+<h3 style="font-size: 24px;"><span style="color: #434343;">Job Opportunities</span></h3>
+<p>The U.S. Bureau of Labor Statistics (BLS) anticipates <a href="https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm"><span>9,700 new computer programming job openings</span></a> every year through 2030. Programming jobs pay a median wage of $89,190 per year, more than twice the national median.</p>
+<p>At the time of this writing, there are almost <a href="https://www.indeed.com/q-Computer-Programmer-jobs.html"><span>10,000 open computer programming jobs on Indeed</span></a>. Positions are available across the country, and close to 1,000 are explicitly labeled as <a href="https://www.edx.org/learn/remote-work"><span>remote work</span></a>.</p>
+<h3 style="font-size: 24px;"><span style="color: #434343;">Entrepreneurship</span></h3>
+<p>Because programming is part of every computer innovation, computer programming is the perfect skill for aspiring tech entrepreneurs. With a background in computer programming, you can:</p>
+<ul>
+<li aria-level="1">Develop and market an app.</li>
+<li aria-level="1">Start an app development agency.</li>
+<li aria-level="1">Create a Software-as-a-Service product (a subscription-based software like MailChimp or Hulu).</li>
+<li aria-level="1">Teach programming online.</li>
+<li aria-level="1">Create video games with <a href="https://www.edx.org/learn/game-design"><span>game design</span></a> and <a href="https://www.edx.org/learn/game-development"><span>game development</span></a>.</li>
+</ul>
+<p>These are only a few of the business options available to savvy programmers. If you have a tech idea, all you need are the skills to launch it.</p>
+<h3 style="font-size: 24px;"><span style="color: #434343;">Lucrative career options</span></h3>
+<p>Computer programming is a gateway skill that opens doors to other technical careers, including:</p>
+<ul>
+<li aria-level="1">Software Engineering and Development (<a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"><span>$110,140/yr</span></a>)</li>
+<li aria-level="1">Data science (<a href="https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm"><span>$126,830/yr</span></a>)</li>
+<li aria-level="1">Cybersecurity (<a href="https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm"><span>$103,590/yr</span></a>)</li>
+<li aria-level="1">Database management and administration (<a href="https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm"><span>$98,860/yr</span></a>)</li>
+</ul>
+<p>A computer programming education is a solid background for any of these fields. Even if you’re not sure which way to go, start with programming and branch out when the time is right.</p>
+<h2 style="font-size: 30px;">Getting started in programming</h2>
+<p><img src="https://www.mooc.org/hubfs/start-learn-programming-jpg.jpeg" loading="lazy" alt="get started learning programming"></p>
+<p>For years, most programmers entered the workforce with a bachelor’s degree. Today, there are many more pathways to entry, from the traditional degree program to certificate programs and self-study.</p>
+<p>If you want to study programming without general education requirements or electives, consider <a href="https://www.edx.org/learn/coding-bootcamps"><span>edX’s bootcamp-style coding programs</span></a>. These focused options let you study part-time or full time, depending on your schedule and professional goals.</p>
+<p>Not ready for an extended bootcamp? edX offers a range of stand-alone courses and certificate programs, many of which have no prerequisites. Check out <a href="https://www.edx.org/learn/computer-programming"><span>edX’s computer programming courses</span></a> today and take your first step into the world of coding.</p></span>
+				</div>
+				
+				<div class="atmc-blog-post_tags my-8">
+					
+
+<div class="page-breadcrumbs">
+<ul id="breadcrumblist" itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://www.mooc.org/"><span itemprop="name">MOOC.org</span></a><meta itemprop="position" content="1"></li>
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://www.mooc.org/blog"><span itemprop="name">Articles</span></a><meta itemprop="position" content="2"></li>
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://www.mooc.org/blog/tag/programming"><span itemprop="name">Programming</span></a><meta itemprop="position" content="3"></li>
+</ul>
+</div>
+
+
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+
+	
+	<div class="dnd-section bg-light">
+		<div class="atmc-container atmc-container-s">
+			<div class="atmc-blog-recent-posts">
+				<div class="atmc-content-wrapper">
+					<h2 class="mb-8">Related Posts</h2>
+					<div class="atmc-blog-recent-posts_list atmc-grid atmc-grid-3col">
+						
+  
+		<a href="https://www.mooc.org/blog/best-programming-languages-for-game-development" class="atmc-blog-recent-posts_post atmc-grid-col">
+			<label class="atmc-cap">Dec 13, 2021 5:41:00 PM</label>
+			<h3 class="atmc-blog-recent-posts_title atmc-h4">Best Programming Languages for Game Development</h3>
+		</a>
+	
+
+  
+		<a href="https://www.mooc.org/blog/can-i-work-from-home-as-a-programmer" class="atmc-blog-recent-posts_post atmc-grid-col">
+			<label class="atmc-cap">Nov 19, 2021 2:44:18 PM</label>
+			<h3 class="atmc-blog-recent-posts_title atmc-h4">Can I Work from Home as a Programmer?</h3>
+		</a>
+	
+
+  
+		<a href="https://www.mooc.org/blog/what-is-python-used-for" class="atmc-blog-recent-posts_post atmc-grid-col">
+			<label class="atmc-cap">Dec 7, 2021 3:43:00 PM</label>
+			<h3 class="atmc-blog-recent-posts_title atmc-h4">What Is Python Used For?</h3>
+		</a>
+	
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </article>
+</main>
+
+			</div>
+			
+      <div data-global-resource-path="1 - Page Templates/MOOC Blog/templates/partials/footer-post.html"><div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 footer-global-row-0-padding dnd-section footer-global-row-0-force-full-width-section footer-global-row-0-vertical-alignment">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module footer-global-module-1-vertical-alignment" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_footer-global-module-1" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div id="footer" class="row-fluid-wrapper bg-elm">
+<div class="row-fluid row-inner" style="padding-top: 2%; padding-bottom: 2%;">
+<div class="footer-about lander-inner-full">
+
+<div class="footer-about-logo" style="padding-bottom: 2%;">
+<a href="https://www.edx.org/?hs_analytics_source=referrals&amp;utm_source=mooc.org&amp;utm_medium=referral&amp;utm_campaign=mooc-footer"><img src="https://www.mooc.org/hubfs/edX_Logo_R_Elm_TranspLetters-1.svg" alt="edX Logo"></a>
+</div>
+
+<div class="footer-about-content">
+
+<div class="footer-about-text">
+<div id="hs_cos_wrapper_footer-global-module-1_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="rich_text"><div id="footer">
+<div id="footer">
+<div>
+<p><strong>About edX:</strong></p>
+<p>edX is the education movement for restless learners. Together with our founding partners Harvard and MIT, we’ve brought together over 35 million learners, the majority of top-ranked universities in the world, and industry-leading companies onto one online learning platform that supports learners at every stage. And we’re not stopping there—as a global nonprofit, we’re relentlessly pursuing our vision of a world where every learner can access education to unlock their potential, without the barriers of cost or location.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+<div id="footer2">
+<div>
+<div>
+<p>© 2021 edX. All rights reserved.<br><a href="https://www.edx.org/edx-privacy-policy">Privacy Policy</a><span>&nbsp;</span>|<span>&nbsp;</span><a href="https://www.edx.org/edx-terms-service">Terms of Service</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer2">
+<div>
+<div>&nbsp;</div>
+</div>
+</div></div>
+</div>
+
+<div class="footer-about-cta">
+<span id="hs_cos_wrapper_footer-global-module-1_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="cta"><!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-8c061ca4-7805-45f0-96e7-d92b0415d98b"><span class="hs-cta-node hs-cta-8c061ca4-7805-45f0-96e7-d92b0415d98b" id="hs-cta-8c061ca4-7805-45f0-96e7-d92b0415d98b"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/6448316/8c061ca4-7805-45f0-96e7-d92b0415d98b" target="_blank" rel="noopener"><img class="hs-cta-img" id="hs-cta-img-8c061ca4-7805-45f0-96e7-d92b0415d98b" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/6448316/8c061ca4-7805-45f0-96e7-d92b0415d98b.png" alt="Browse Online edX Courses"></a></span><script charset="utf-8" src="/hs/cta/cta/current.js"></script><script type="text/javascript"> hbspt.cta._relativeUrls=true;hbspt.cta.load(6448316, '8c061ca4-7805-45f0-96e7-d92b0415d98b', {"useNewLoader":"true","region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code --></span>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div></div>
+    </div>
+    
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+    
+		
+    
+		
+		
+		
+		
+		
+    
+
+    
+<!-- HubSpot performance collection script -->
+<script defer src="https://static.hsappstatic.net/content-cwv-embed/static-1.388/embed.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+<script src="https://www.mooc.org/hs-fs/hub/6448316/hub_generated/template_assets/14480586828/1569600097421/4_-_Custom_Files/Companymain.min.js"></script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js"></script>
+<script src="https://www.mooc.org/hs-fs/hub/6448316/hub_generated/template_assets/57996114711/1634759010995/1_-_Page_Templates/MOOC_Blog/js/main.min.js"></script>
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "blog-post"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.mooc.org\/blog\/applications-of-computer-programming"]);
+_hsq.push(["setPageId", "59861711175"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 59861711175,
+    "legacyPageId": "59861711175",
+    "contentFolderId": null,
+    "contentGroupId": 24935757239,
+    "abTestId": null,
+    "languageVariantId": 59861711175,
+    "languageCode": "en",
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/6448316.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "d7edacf8-dcec-482f-85ad-d226a01e15d1",
+    ticks: 1706564496173,
+    page_id: 59861711175,
+    
+    content_group_id: 24935757239,
+    portal_id: 6448316,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "blog-post",
+    analytics_page_id: "59861711175",
+    category_id: 3,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.191/js/index.js"></script>
+
+
+<script type="text/javascript">
+_linkedin_partner_id = "533266";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=533266&amp;fmt=gif">
+</noscript>
+
+<div id="fb-root"></div>
+ <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&status=0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ 
+
+
+  
+</body></html>

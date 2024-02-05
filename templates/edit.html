@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          background-image: url("{{url_for('static',filename='computer.jpg')}}"); 
+          height: 100vh;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          font-family: Arial, sans-serif;
+        }
+    
+        .container {
+          width: 30%;
+          margin: auto;
+          padding: 20px;
+          background-color: rgba(158, 138, 138, 0.8); 
+          border: 2px solid #333;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-sizing: border-box;
+          margin-top: 40px;
+        }
+    
+        form {
+          display: flex;
+          flex-direction: column;
+        }
+    
+        label {
+          margin-bottom: 8px;
+          font-weight: bold;
+        }
+    
+        input {
+          padding: 8px;
+          margin-bottom: 16px;
+          border: 1px solid #333;
+          border-radius: 5px;
+        }
+    
+        button {
+          padding: 10px;
+          background-color: #af7017;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+    
+        button:hover {
+          background-color: #b12c08;
+        }
+      </style>
+</head>
+<body>
+    <div class="container">
+        <form method="post">
+            <label for="Name">Name</label>
+            <input type="text" name="Name" value="{{student['Name']}}">
+            <label for="Age">Age</label>
+            <input type="number" name="Age" value="{{student['Age']}}">
+            <label for="RollNo">Roll_NO</label>
+            <input type="number" name="Roll_NO" value="{{student['Roll_NO']}}">
+            <label for="Mark1">Mark1</label>
+            <input type="number" name="Mark1" value="{{student['Marks'][0]}}">
+            <label for="Mark2">Mark2</label>
+            <input type="number" name="Mark2" value="{{student['Marks'][1]}}">
+            <label for="Mark3">Mark3</label>
+            <input type="number" name="Mark3" value="{{student['Marks'][2]}}">
+            <label for="Mark4">Mark4</label>
+            <input type="number" name="Mark4" value="{{student['Marks'][3]}}">
+            <label for="Mark5">Mark5</label>
+            <input type="number" name="Mark5" value="{{student['Marks'][4]}}">
+            <input type="submit" value="submit">
+        </form> 
+        </div>
+
+    
+</body>
+</html>

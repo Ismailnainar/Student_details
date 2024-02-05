@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Add_student</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          background-image: url("{{url_for('static',filename='tech.jpg')}}"); 
+          height: 100vh;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          font-family: Arial, sans-serif;
+        }
+    
+        .container {
+          width: 30%;
+          margin: auto;
+          padding: 20px;
+          background-color: rgba(244, 237, 237, 0.8); 
+          border: 2px solid #333;
+          border-radius: 40px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-sizing: border-box;
+          margin-top: 30px;
+        }
+    
+        form {
+          display: flex;
+          flex-direction: column;
+        }
+    
+        label {
+          margin-bottom: 8px;
+          font-weight: bold;
+        }
+    
+        input {
+          padding: 8px;
+          margin-bottom: 16px;
+          border: 1px solid #333;
+          border-radius: 5px;
+        }
+    
+        button {
+          padding: 10px;
+          background-color: #849485;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+    
+        button:hover {
+          background-color: #61ea68;
+        }
+      </style>
+</head>
+<body>
+    <div class="container">
+        <form action="{{url_for('Add')}}" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="Name" required>
+    
+          <label for="age">Age</label>
+          <input type="number" id="age" name="Age" required>
+    
+          <label for="rollNo">Roll No:</label>
+          <input type="text" id="rollNo" name="Roll_NO" required>
+    
+          <label for="mark1">Mark 1:</label>
+          <input type="number" id="mark1" name="Mark1" required>
+    
+          <label for="mark2">Mark 2:</label>
+          <input type="number" id="mark2" name="Mark2" required>
+    
+          <label for="mark3">Mark 3:</label>
+          <input type="number" id="mark3" name="Mark3" required>
+    
+          <label for="mark4">Mark 4:</label>
+          <input type="number" id="mark4" name="Mark4" required>
+    
+          <label for="mark5">Mark 5:</label>
+          <input type="number" id="mark5" name="Mark5" required>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </div> 
+</body>
+</html>

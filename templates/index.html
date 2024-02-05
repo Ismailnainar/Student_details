@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>navigation bar</title>
+    <style>
+        body{
+            background-image: url("{{url_for('static',filename='tech.jpg')}}");
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+   
+
+</head>
+<body>
+    <nav>
+        <ul>
+        <label  class="logo">Student_Deatils</label>
+        <li><a class="active" href="{{url_for('page')}}">HOME</a></li>
+        <li><a href="{{url_for('login')}}">LOGIN</a></li>
+        <li><a href="{{url_for('logout')}}">LOGOUT</a></li>
+        <li><a href="{{url_for('Add')}}">ADD_STUDENT</a></li>
+        </ul>
+    </nav>
+    <div class="container pt-3">
+    {% block body %}
+{% endblock body %}    
+</div>
+</body>
+</html>
